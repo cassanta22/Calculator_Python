@@ -473,7 +473,7 @@ class Example(QtGui.QWidget):
 
                     if self.num_1 == '0':
                         self.num_1 = '0.'
-                        print self.num_1
+                        print (self.num_1)
                         lcd.setText(self.num_1)
                     else:
                         self.num_1 = self.num_1 + '.'
